@@ -5,21 +5,21 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", "10685201"))
-API_HASH = os.environ.get("API_HASH", "8e039b83a886a2c2b97309ccc6298c20")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7400218321:AAG5fCrK9-Q1rjqg89qKFk1kYxya5T0pRWE")
+API_ID = int(os.environ.get("API_ID", "20154522"))
+API_HASH = os.environ.get("API_HASH", "ec1b720c2e0035a310d47ebd5655b676")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "982105601"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://tgarun163:qgq7VlZ1a4Ke9Dnh@cluster0.7iaqu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DB_NAME", "tgarun163")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://royalsrikanth140:n0O97ntpssfJWUjX@cluster0.788gy1y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DB_NAME", "royalsrikanth140")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001995978690"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001640099591"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001939094435"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001533865864"))
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1001533865864"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002349059747"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "--1001999073784"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001937695139"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002075397287"))
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002075397287"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "86400")) # auto delete in seconds
@@ -31,8 +31,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "6"))
 
 
 try:
-    ADMINS=[6848088376]
-    for x in (os.environ.get("ADMINS", "6848088376").split()):
+    ADMINS=[7003079691]
+    for x in (os.environ.get("ADMINS", "7003079691").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -70,7 +70,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b>You Need 
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6848088376)
+ADMINS.append(7003079691)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
